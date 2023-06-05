@@ -1,4 +1,4 @@
-let card = document.getElementById("box-cards");
+let card = document.getElementById("main-div-card");
   
 function createCards(event) {
   return `<div class="card" style="width: 16rem;">
