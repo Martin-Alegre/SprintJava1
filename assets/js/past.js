@@ -28,9 +28,9 @@ function renderCards(events) {
 
 
 function filterPastEvents(data) {
-  let currentDate = new Date(data.currentDate);
+  let currentDate = (data.currentDate);
   let pastEvents = data.events.filter((event) => {
-    return new Date(event.date) < currentDate;
+    return (event.date) < currentDate;
   });
 
   renderCards(pastEvents);
